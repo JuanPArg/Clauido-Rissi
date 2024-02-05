@@ -1,0 +1,14 @@
+.centrado {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+.resaltar{
+    color: rgb(229, 229, 22)
+}

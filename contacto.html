@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shrotcut icon" href="favicon.ico" type="image.icon">
+    <title>El último adiós al gran Claudio Rissi.</title>
+
+    <!-- Acá van los links a los css que te darán estilos, uno general y otro particular -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/contacto.css">
+</head>
+<body>
+    <header>
+        <h1>Claudio Rissi, un actor con sello propio.</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="referencias.html">referencias</a></li> 
+                <li><a href="trabajos.html">trabajos</a></li> 
+                <li><a class="active" href="contacto.html">contacto</a></li>
+                
+            </ul>
+            
+            
+        </nav>
+        
+    </header>
+    
+    <hr>
+    <br>
+    <p><b>"Soy actor para contarte una historia y modificar por un ratito tu realidad"</b></p>
+    <img src="assets/jean renno.webp" alt="">
+    <p><b>"El Jean Reno Argentino"</b></p>
+    <hr>
+    <div class="contededor">
+    <form>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" placeholder="escribí aquí tu nombre">
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" placeholder="escribí aquí tu apellido">
+        <label for="mail">Email: </label>
+        <input type="email" id="mail" name="mail" placeholder="escribí aquí tu mail" required>
+        <label for="provincia">Provincia: </label>
+        <select name="provincia" id="provincia">
+
+<option value="Buenos Aires">Buenos Aires</option>
+<option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+<option value="Catamarca">Catamarca</option>
+<option value="Chaco">Chaco</option>
+<option value="Chubut">Chubut</option>
+<option value="Córdoba">Córdoba</option>
+<option value="Corrientes">Corrientes</option>
+<option value="Entre Ríos">Entre Ríos</option>
+<option value="Formosas">Formosa</option>
+<option value="Jujuy">Jujuy</option>
+<option value="La Pampa">La Pampa</option>
+<option value="La Rioja">La Rioja</option>
+<option value="Mendoza">Mendoza</option>
+<option value="Misiones">Misiones</option>
+<option value="Neuquén">Neuquén</option>
+<option value="Río Negro">Río Negro</option>
+<option value="Salta">Salta</option>
+<option value="San Luis">San Luis</option>
+<option value="Santa Cruz">Santa Cruz</option>
+<option value="Santa Fe">Santa Fe</option>
+<option value="Santiago del Estero">Santiago del Estero</option>
+<option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+<option value="Tucumán">Tucumán</option>
+</select>
+</form>
+</div>
+
+<label for="comentario">Comentario</label>
+<textarea name="comentario" id="comentario" placeholder="escribí aquí tu comentario"></textarea>
+<label for="motivo">Motivo de contacto</label>
+<input type="radio" id="motivo" name="motivo"><i>Soy fan</i>
+<input type="radio" id="motivo" name="motivo"><i>Queiro una remera</i>
+<input type="radio" id="motivo" name="motivo"><i>Comerciales</i>
+<input type="radio" id="motivo" name="motivo"><i>Reclamos</i>
+
+<input type="submit" value="ENVIAR">
+<footer class="footer">
+    <p>derechos reservados &copy; 2023</p>
+</footer>
+    
+</body>
+</html>
